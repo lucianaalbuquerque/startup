@@ -1,0 +1,50 @@
+body,
+html {
+    height: 100%;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    background: url(header.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+h1 {
+  color: rgb(238, 238, 238);
+  font-size: 3rem;
+}
+.buffer {
+  height: 1200px;
+}
+.btn {
+  font-weight: 700;
+  border-radius: 300px;
+  text-transform: capitalize;
+}
+.btn-warning {
+  border-color:#f05044;
+  background-color: #f05044;
+  color: rgb(247, 245, 243);
+}
+.btn-warning:hover {
+  border-color:#c74339;
+  background-color: #c74339;
+  color: rgb(255, 255, 255);
+  border-width: 5px;
+}
+.btn-xl {
+  padding: 1rem 2rem;
+}
+hr {
+  border-color: #f05044;
+  margin: 10px auto;
+  color: #F05F44;
+  border: 3px solid #F05F44;
+  max-width: 65px;
+  opacity: 1;  
+}
+.position {
+  position: flex;
+  align-content: flex-end;
+  margin-bottom: 450px;
+}
